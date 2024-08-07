@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://www.tudocelular.com/',
+    baseUrl: 'https://www.tudocelular.com/compare',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
