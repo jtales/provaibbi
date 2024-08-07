@@ -1,6 +1,6 @@
 describe('3 - Automation', () => {
   it('Faz uma comparação', () => {
-    cy.visit('/')
+    cy.visit('/compare')
     cy.get('[href="/compare/9149.html"] > .item > .plus').click()
     cy.get('[href="/compare/8442.html"] > .item > .plus').click()
     cy.get('#comparabtn > a').click()
