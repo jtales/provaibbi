@@ -1,0 +1,23 @@
+{
+  "name": "provaibbi",
+  "version": "1.0.0",
+  "description": "Projeto para automação de testes do site Tudo Celular",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtales/provaibbi.git"
+  },
+  "author": "João Tales Luchsinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtales/provaibbi/issues"
+  },
+  "homepage": "https://github.com/jtales/provaibbi#readme",
+  "devDependencies": {
+    "cypress": "^13.13.2"
+  }
+}
